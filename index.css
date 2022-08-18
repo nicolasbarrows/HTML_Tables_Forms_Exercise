@@ -1,0 +1,85 @@
+/* my color pallette 
+    #D7F9F1 light blue
+    #7AA095 dark blue
+    #40531B dark green
+    #618B4A mid green
+    #AFBC88 light green */
+
+* {
+    box-sizing:border-box
+}
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+h1 {
+   color:#40531B;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 24px;
+    background: linear-gradient(to bottom, #AFBC88, #40531B);
+    color: #000
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    border-radius: 10px;
+    background: #D7F9F1;
+    border: solid #7AA095 3px;
+    box-shadow: 0px 0px 50px 0px #000;
+    margin: 25px auto;
+}
+
+#sectionA {
+    padding: 12px 6px 6px;
+}
+
+#sectionB {
+    padding: 12px 6px 36px;
+}
+
+thead {
+    color:#7AA095
+}
+tbody {
+    background-color: white;
+}
+
+fieldset {
+    border: none;
+}
+
+label, input {
+    display: block;
+    text-align: start;
+    margin: 4px auto;
+    min-width: 200px;
+    width: 66%;
+    max-width: 600px;
+}
+
+input {
+    border: 1px solid #618B4A;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+input:focus {
+    border: 3px solid #618B4A;
+    color:#618B4A
+}
+
+.leftColumn {
+font-weight: bold;
+}
+
