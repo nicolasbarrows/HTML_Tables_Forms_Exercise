@@ -79,6 +79,19 @@ input:focus {
     color:#618B4A
 }
 
+.button {
+    background-color: #618B4A;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+}
+
 .leftColumn {
 font-weight: bold;
 }
